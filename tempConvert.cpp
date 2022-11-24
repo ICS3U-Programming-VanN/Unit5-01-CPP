@@ -36,7 +36,7 @@ void Fahrenheit() {
 
     // In the event of an exception
     } catch (std::invalid_argument) {
-        std::cout << "You must enter number for the celsius!" << std::endl;
+        std::cout << "You must enter a number for the celsius!" << std::endl;
     }
 }
 
@@ -45,6 +45,6 @@ int main() {
     // Displays Program Title
     std::cout << "Celsius to Fahrenheit Program" << std::endl;
 
-    // Calls fahrenheit() function
+    // Calls function to convert user's celsius to fahrenheit
     Fahrenheit();
 }

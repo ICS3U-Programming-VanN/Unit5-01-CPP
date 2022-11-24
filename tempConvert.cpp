@@ -12,7 +12,7 @@
 
 // This function converts asks the user for the temperature in celsius,
 // then converts it to fahrenheit and then displays it to the user
-void fahrenheit() {
+void Fahrenheit() {
     // Declared Variables
     float celsiusFloat, fahrenheit;
     std::string celsiusString;
@@ -46,5 +46,5 @@ int main() {
     std::cout << "Celsius to Fahrenheit Program" << std::endl;
 
     // Calls fahrenheit() function
-    fahrenheit();
+    Fahrenheit();
 }

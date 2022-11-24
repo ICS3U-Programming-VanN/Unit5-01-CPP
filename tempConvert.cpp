@@ -36,7 +36,7 @@ void Fahrenheit() {
 
     // In the event of an exception
     } catch (std::invalid_argument) {
-        std::cout << "You must a number for the celsius!" << std::endl;
+        std::cout << "You must enter number for the celsius!" << std::endl;
     }
 }
 
